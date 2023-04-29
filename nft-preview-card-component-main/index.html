@@ -133,6 +133,39 @@
     }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+        @media (max-width: 375px) {
+      .card{
+        width: 800px;
+      }
+       .card-price,
+    .card-countdown{
+      display: flex;
+      font-size: 14px;
+      align-items: center;
+      font-weight: 400;
+    }
+    .card-author-name{
+      color: hsl(215, 32%, 27%);
+      font-weight: 300;
+    }
+    .card-author-name a{
+      color: hsl(0, 0%, 100%);
+      font-weight: 300;
+      font-size: 14px;
+    }
+    .card-footer{
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; 
+      display: none;
+      
+    }
+    .attribution a { color: hsl(228, 45%, 44%); } 
+   }
   </style>
 </head>
 <body>
